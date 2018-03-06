@@ -3,9 +3,9 @@ Section Arithmetic.
 
 (* iota sort to represent elements *) 
 Parameter (iota: Set).
-(* kappa sort to present sets *)
+(* kappa sort to represent sets *)
 Parameter (kappa: Set).
-(* Constant 0 *)
+(* Constant O *)
 Parameter O : iota.
 (* Function symbol expressing successor *)
 Parameter S : iota -> iota.
@@ -13,7 +13,7 @@ Parameter S : iota -> iota.
 Parameter Pred : iota -> iota.
 (* Function + *)
 Parameter Plus : iota -> iota -> iota.
-(* Function x *)
+(* Function * *)
 Parameter Mult : iota -> iota -> iota.
 (* Null predicate *)
 Parameter Null : iota -> Prop.
